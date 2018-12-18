@@ -11,7 +11,7 @@
 - Run command line ```npm run coverage``` to see tests coverage
 - Run command line ```npm run lint``` to see conventions errors
 
-- App has deployed at: https://shrouded-tor-12737.herokuapp.com
+- App has deployed at: https://warm-gorge-63535.herokuapp.com
 
 
 ### 1. Write an application in React JS:
