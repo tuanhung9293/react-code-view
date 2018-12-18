@@ -1,0 +1,84 @@
+@value font-sizes: 'styles/font-sizes.css';
+@value small, larger from font-sizes;
+
+@value colors: 'styles/colors.css';
+@value nasa-dark, nasa-light-dark, nasa-yellow, nasa-gray from colors;
+
+
+.wrapper {
+    position: relative;
+    margin-top: 30px;
+}
+
+.inner{
+    padding-bottom: 24px;
+    border-bottom: 4px solid nasa-light-dark;
+}
+
+.mediaType {
+    position: absolute;
+    top: 12px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: nasa-yellow;
+}
+
+.mediaType a{
+    display: inline-block;
+    padding: 4px 8px 4px 12px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.info{
+    width: calc(88% - 40px);
+    padding: 1px 20px 0 20px;
+    background: white;
+    left: 6%;
+    margin-top: -50px;
+    bottom: 0;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.title{
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: nasa-dark;
+    line-height: 1.3;
+}
+
+.meta{
+    color: nasa-gray;
+    font-size: 11px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+.postauthor a{
+    color: nasa-yellow;
+}
+
+.description{
+    margin-top: 8px;
+    color: nasa-gray;
+    line-height: 1.25em;
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 45px;
+}
+
+.addButton{
+    width: 80%;
+    margin: 0 10%;
+}

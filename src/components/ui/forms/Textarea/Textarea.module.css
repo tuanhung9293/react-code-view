@@ -1,0 +1,27 @@
+@value colors: 'styles/colors.css';
+@value field, separator, error, secondary from colors;
+
+.textarea{
+  appearance: none;
+  border: 2px solid transparent;
+  background-color: field;
+  border-radius: 4px;
+  box-shadow: 0 2px rgba(0,0,0,0.1);
+  margin: 10px 0;
+  padding: 10px 15px;
+  font-family: 'campton', Helvetica, sans-serif;
+  line-height: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  height: 200px;
+  resize: none;
+}
+
+.error{
+  border-color: error;
+}
+
+.textarea:focus{
+  outline: 0;
+  border-color: secondary;
+}

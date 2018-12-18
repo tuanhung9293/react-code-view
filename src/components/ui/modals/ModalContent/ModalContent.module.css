@@ -1,0 +1,11 @@
+.base {
+  box-sizing: border-box;
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}

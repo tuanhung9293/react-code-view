@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering ModalContent should pass props down 1`] = `
+<div
+  className="base"
+  data="data"
+  data2="data2"
+/>
+`;
+
+exports[`rendering renders ModalContent with no props 1`] = `
+<div
+  className="base"
+/>
+`;
+
+exports[`rendering renders ModalContent with props center 1`] = `
+<div
+  className="base center"
+/>
+`;

@@ -1,0 +1,12 @@
+.base {
+  width: 20px;
+  min-width: 15px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.small {
+  width: 15px;
+  min-width: 15px;
+}

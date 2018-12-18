@@ -1,0 +1,11 @@
+# Node Modules
+/node_modules
+
+# Bundle
+/public
+
+# Tests coverage
+/src/__coverage__
+
+# Status
+/stats

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`form has initial state 1`] = `
+Object {
+  "initialValues": Object {},
+  "meta": Object {
+    "submitted": false,
+    "submitting": false,
+  },
+  "touched": Object {},
+  "validationErrors": Object {},
+  "values": Object {},
+}
+`;
+
+exports[`forms clears errors on VALIDATE_FIELD 1`] = `
+Object {
+  "testForm": Object {
+    "initialValues": Object {},
+    "meta": Object {
+      "submitted": false,
+      "submitting": false,
+    },
+    "touched": Object {},
+    "validationErrors": Object {},
+    "values": Object {},
+  },
+}
+`;
+
+exports[`forms deletes the form on CLEAR_FORM 1`] = `Object {}`;
+
+exports[`forms has initial state 1`] = `Object {}`;
+
+exports[`forms responds to VALIDATE_FIELDS 1`] = `
+Object {
+  "testForm": Object {
+    "initialValues": Object {},
+    "meta": Object {
+      "submitted": false,
+      "submitting": false,
+    },
+    "touched": Object {},
+    "validationErrors": Object {
+      "testField": "is required",
+    },
+    "values": Object {},
+  },
+}
+`;
+
+exports[`forms responds to VALIDATE_FORM 1`] = `
+Object {
+  "testForm": Object {
+    "initialValues": Object {},
+    "meta": Object {
+      "submitted": false,
+      "submitting": false,
+    },
+    "touched": Object {},
+    "validationErrors": Object {
+      "testField": "is required",
+    },
+    "values": Object {},
+  },
+}
+`;

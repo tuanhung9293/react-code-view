@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders MediaTypeCheckbox 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="inlineFlex"
+  >
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Image
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Video
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Audio
+    </label>
+  </div>
+</div>
+`;
+
+exports[`renders renders MediaTypeCheckbox with favorite checkbox 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="inlineFlex"
+  >
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Image
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Video
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Audio
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Favorite
+    </label>
+  </div>
+</div>
+`;
+
+exports[`renders renders MediaTypeCheckbox with label 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label>
+      label
+    </Label>
+  </div>
+  <div
+    className="inlineFlex"
+  >
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Image
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Video
+    </label>
+    <label
+      className="checkbox"
+    >
+      <Checkbox
+        checked={true}
+        onChange={[Function]}
+      />
+      Audio
+    </label>
+  </div>
+</div>
+`;

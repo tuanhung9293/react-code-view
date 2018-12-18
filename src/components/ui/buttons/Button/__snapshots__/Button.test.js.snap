@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as a link when to prop is provided 1`] = `
+<Link
+  replace={false}
+  to="/my-path"
+>
+  I am your child
+</Link>
+`;
+
+exports[`renders as an anchor when href prop is provided 1`] = `
+<a
+  href="https://someurl.com"
+>
+  I am your child
+</a>
+`;
+
+exports[`renders as disabled 1`] = `
+<button
+  disabled={true}
+>
+  I am your child
+</button>
+`;
+
+exports[`renders as disabled also as a link 1`] = `
+<Link
+  onClick={[Function]}
+  replace={false}
+  to="/hello"
+>
+  I am your child
+</Link>
+`;
+
+exports[`renders children 1`] = `
+<button>
+  I am your child
+</button>
+`;

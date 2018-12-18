@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+    background: black;
+}
+
+.thumb {
+    width: 100%;
+    min-height: 145px;
+}
+
+.playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

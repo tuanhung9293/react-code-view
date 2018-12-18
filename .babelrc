@@ -1,0 +1,34 @@
+{
+    "presets": ["react", [
+      "env", { 
+        "targets": {
+          "browsers": [
+            ">1%",
+            "last 4 versions",
+            "Firefox ESR",
+            "not IE < 11"
+          ],
+          "uglify": true
+        },
+        "modules": false,
+        "useBuiltIns": true
+      }
+    ]],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-class-properties",
+      "syntax-dynamic-import"
+    ],
+    "env": {
+      "test": {
+        "presets": ["react", [
+          "env", { 
+            "uglify": true,
+            "modules": "commonjs"
+          }
+        ]],
+        "plugins": ["transform-object-rest-spread", "transform-class-properties", "syntax-dynamic-import", "dynamic-import-node"]
+      }
+    }
+  }
+  

@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders NasaSearch Component 1`] = `
+<Connect(NasaSearch)>
+  <NasaSearch
+    fetchMoreMedias={[Function]}
+    loading={true}
+    loadingMore={false}
+    params={
+      Object {
+        "mediaType": "video",
+        "q": "dada",
+      }
+    }
+    searchResults={
+      Array [
+        Object {},
+        Object {},
+        Object {},
+      ]
+    }
+    totalHits={1002}
+  >
+    <DocumentTitle
+      title="Search"
+    >
+      <SideEffect(DocumentTitle)
+        title="Search"
+      >
+        <DocumentTitle
+          title="Search"
+        />
+      </SideEffect(DocumentTitle)>
+    </DocumentTitle>
+    <div
+      className="link"
+    >
+      <Link
+        replace={false}
+        to="/collection"
+      >
+        <a
+          href="/collection"
+          onClick={[Function]}
+        >
+          Back to Collection
+        </a>
+      </Link>
+    </div>
+    <withRouter(Connect(SearchForm))>
+      <Route>
+        <Connect(SearchForm)
+          history={
+            Object {
+              "action": "POP",
+              "block": [Function],
+              "canGo": [Function],
+              "createHref": [Function],
+              "entries": Array [
+                Object {
+                  "hash": "",
+                  "key": "testKey",
+                  "pathname": "/",
+                  "search": "",
+                },
+              ],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "index": 0,
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "key": "testKey",
+                "pathname": "/",
+                "search": "",
+              },
+              "push": [Function],
+              "replace": [Function],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "key": "testKey",
+              "pathname": "/",
+              "search": "",
+            }
+          }
+          match={
+            Object {
+              "isExact": true,
+              "params": Object {},
+              "path": "/",
+              "url": "/",
+            }
+          }
+        >
+          <SearchForm
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "testKey",
+                    "pathname": "/",
+                    "search": "",
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "testKey",
+                  "pathname": "/",
+                  "search": "",
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "testKey",
+                "pathname": "/",
+                "search": "",
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            mediasParams={
+              Object {
+                "mediaType": "video",
+                "q": "dada",
+              }
+            }
+            searchMedia={[Function]}
+          >
+            <div
+              className="wrapper"
+            >
+              <div>
+                <div
+                  className="title"
+                >
+                  Search from Nasa
+                </div>
+                <Input
+                  disabled={false}
+                  onChange={[Function]}
+                  onKeyPress={[Function]}
+                  placeholder="Type something to search..."
+                  value=""
+                >
+                  <input
+                    className="input"
+                    disabled={false}
+                    onChange={[Function]}
+                    onKeyPress={[Function]}
+                    placeholder="Type something to search..."
+                    type="text"
+                    value=""
+                  />
+                </Input>
+              </div>
+              <MediaTypeCheckbox
+                audio={true}
+                image={true}
+                onAudioCheck={[Function]}
+                onImageCheck={[Function]}
+                onVideoCheck={[Function]}
+                video={true}
+              >
+                <div
+                  className="wrapper"
+                >
+                  <div
+                    className="inlineFlex"
+                  >
+                    <label
+                      className="checkbox"
+                    >
+                      <Checkbox
+                        checked={true}
+                        onChange={[Function]}
+                      >
+                        <span
+                          className="wrapper"
+                        >
+                          <input
+                            checked={true}
+                            className="input"
+                            onChange={[Function]}
+                            type="checkbox"
+                          />
+                          <span
+                            className="display"
+                          />
+                        </span>
+                      </Checkbox>
+                      Image
+                    </label>
+                    <label
+                      className="checkbox"
+                    >
+                      <Checkbox
+                        checked={true}
+                        onChange={[Function]}
+                      >
+                        <span
+                          className="wrapper"
+                        >
+                          <input
+                            checked={true}
+                            className="input"
+                            onChange={[Function]}
+                            type="checkbox"
+                          />
+                          <span
+                            className="display"
+                          />
+                        </span>
+                      </Checkbox>
+                      Video
+                    </label>
+                    <label
+                      className="checkbox"
+                    >
+                      <Checkbox
+                        checked={true}
+                        onChange={[Function]}
+                      >
+                        <span
+                          className="wrapper"
+                        >
+                          <input
+                            checked={true}
+                            className="input"
+                            onChange={[Function]}
+                            type="checkbox"
+                          />
+                          <span
+                            className="display"
+                          />
+                        </span>
+                      </Checkbox>
+                      Audio
+                    </label>
+                  </div>
+                </div>
+              </MediaTypeCheckbox>
+            </div>
+          </SearchForm>
+        </Connect(SearchForm)>
+      </Route>
+    </withRouter(Connect(SearchForm))>
+    <div
+      className="loading"
+    >
+      <Loading>
+        <div
+          className="spinner"
+        />
+      </Loading>
+    </div>
+  </NasaSearch>
+</Connect(NasaSearch)>
+`;
+
+exports[`renders renders NasaSearch conneted 1`] = `<Connect(NasaSearch) />`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering renders DocumentTitle with props title 1`] = `
+<SideEffect(DocumentTitle)
+  title="test title"
+/>
+`;

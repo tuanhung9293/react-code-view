@@ -1,0 +1,18 @@
+@value colors: 'styles/colors.css';
+@value white, nasa-yellow from colors;
+
+.wrapper {
+    width: 45px;
+    cursor: pointer;
+}
+  
+.svg {
+    transition: .5s; 
+    fill:#7c7c7c; 
+    opacity: .5;
+}
+
+.wrapper:hover .svg {
+    fill: nasa-yellow;
+    opacity: 1;
+}

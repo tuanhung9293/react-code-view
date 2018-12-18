@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayButton should pass props down 1`] = `
+<Link
+  data="data1"
+  data2="data2"
+  replace={false}
+  to="/collection"
+>
+  <div
+    className="wrapper"
+  >
+    <svg
+      viewBox="0 0 26 26"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        className="svg"
+        points="9.33 6.69 9.33 19.39 19.3 13.04 9.33 6.69"
+      />
+      <path
+        className="svg"
+        d="M26,13A13,13,0,1,1,13,0,13,13,0,0,1,26,13ZM13,2.18A10.89,10.89,0,1,0,23.84,13.06,10.89,10.89,0,0,0,13,2.18Z"
+      />
+    </svg>
+  </div>
+</Link>
+`;
+
+exports[`renders PlayButton with props to 1`] = `
+<Link
+  replace={false}
+  to="/collection"
+>
+  <div
+    className="wrapper"
+  >
+    <svg
+      viewBox="0 0 26 26"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        className="svg"
+        points="9.33 6.69 9.33 19.39 19.3 13.04 9.33 6.69"
+      />
+      <path
+        className="svg"
+        d="M26,13A13,13,0,1,1,13,0,13,13,0,0,1,26,13ZM13,2.18A10.89,10.89,0,1,0,23.84,13.06,10.89,10.89,0,0,0,13,2.18Z"
+      />
+    </svg>
+  </div>
+</Link>
+`;

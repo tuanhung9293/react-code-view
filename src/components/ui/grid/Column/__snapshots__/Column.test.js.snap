@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 1`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "8.333333333333334%",
+      "flexGrow": 0,
+      "maxWidth": "8.333333333333334%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "8.333333333333334%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 2`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "16.666666666666668%",
+      "flexGrow": 0,
+      "maxWidth": "16.666666666666668%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "16.666666666666668%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 3`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "25%",
+      "flexGrow": 0,
+      "maxWidth": "25%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "25%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 4`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "33.333333333333336%",
+      "flexGrow": 0,
+      "maxWidth": "33.333333333333336%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "33.333333333333336%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 5`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "41.66666666666667%",
+      "flexGrow": 0,
+      "maxWidth": "41.66666666666667%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "41.66666666666667%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 6`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "50%",
+      "flexGrow": 0,
+      "maxWidth": "50%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "50%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 7`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "58.333333333333336%",
+      "flexGrow": 0,
+      "maxWidth": "58.333333333333336%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "58.333333333333336%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 8`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "66.66666666666667%",
+      "flexGrow": 0,
+      "maxWidth": "66.66666666666667%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "66.66666666666667%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 9`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "75%",
+      "flexGrow": 0,
+      "maxWidth": "75%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "75%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 10`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "83.33333333333334%",
+      "flexGrow": 0,
+      "maxWidth": "83.33333333333334%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "83.33333333333334%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 11`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "91.66666666666667%",
+      "flexGrow": 0,
+      "maxWidth": "91.66666666666667%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "91.66666666666667%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`creates a grid column when it takes a span parameter from 1 to 12 12`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "100%",
+      "flexGrow": 0,
+      "maxWidth": "100%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "100%",
+    }
+  }
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`hides element if span is 0 1`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+/>
+`;
+
+exports[`hides element if span is 0 2`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+/>
+`;
+
+exports[`renders children 1`] = `
+<div
+  className="base column"
+  style={null}
+>
+  <p>
+    I feel like a child
+  </p>
+</div>
+`;
+
+exports[`takes breakpoint to alter column span according to screen width 1`] = `
+<div
+  className="base grid"
+  style={
+    Object {
+      "WebkitBoxFlex": 0,
+      "flexBasis": "100%",
+      "flexGrow": 0,
+      "maxWidth": "100%",
+      "msFlexPositive": 0,
+      "msFlexPreferredSize": "100%",
+    }
+  }
+/>
+`;

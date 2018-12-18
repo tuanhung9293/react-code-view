@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NasaMediaItem 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="inner"
+  >
+    <MediaThumb
+      itemData={
+        Object {
+          "href": "href-mock-1",
+          "mediaType": "image",
+          "nasaId": "nasaId",
+          "thumbUrl": "thumbUrl",
+        }
+      }
+      onFetchCollectionUrl={[Function]}
+      source="medias"
+    />
+    <div
+      className="mediaType"
+    >
+      <a>
+        image
+      </a>
+    </div>
+    <div
+      className="info"
+    >
+      <h4
+        className="title"
+      >
+        <a />
+      </h4>
+      <div
+        className="meta"
+      >
+        <div
+          className="postauthor"
+        >
+          By 
+          <a>
+            unknown
+          </a>
+        </div>
+        <div>
+            /  
+          <img
+            height="10px"
+            src="test-file-stub"
+          />
+           
+          Invalid date
+        </div>
+      </div>
+      <div
+        className="description"
+      />
+    </div>
+    <div
+      className="addButton"
+    >
+      <mockConstructor
+        itemData={
+          Object {
+            "href": "href-mock-1",
+            "mediaType": "image",
+            "nasaId": "nasaId",
+            "thumbUrl": "thumbUrl",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

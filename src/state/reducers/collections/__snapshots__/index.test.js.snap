@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`collections reducer ADD_COLLECTION add existing data 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 12,
+      "value": "value13",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer ADD_COLLECTION add new data 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 12,
+      "value": "value12",
+    },
+    Object {
+      "nasaId": 13,
+      "value": "value13",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer EDIT_COLLECTION 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 12,
+      "value": "value13",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer LIKE_COLLECTION 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "liked": true,
+      "nasaId": 12,
+      "value": "value12",
+    },
+    Object {
+      "liked": true,
+      "nasaId": 14,
+      "value": "value14",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer REMOVE_COLLECTION 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 14,
+      "value": "value14",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer SORT_COLLECTION by dateCreated increase 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "dateCreated": "2018-10-16T00:00:00Z",
+      "nasaId": 14,
+      "value": "value14",
+    },
+    Object {
+      "dateCreated": "2018-11-16T00:00:00Z",
+      "nasaId": 12,
+      "value": "value12",
+    },
+    Object {
+      "dateCreated": "2018-12-16T00:00:00Z",
+      "nasaId": 14,
+      "value": "value14",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer SORT_COLLECTION by title decrease 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 14,
+      "title": "c",
+      "value": "value14",
+    },
+    Object {
+      "nasaId": 14,
+      "title": "b",
+      "value": "value14",
+    },
+    Object {
+      "nasaId": 12,
+      "title": "a",
+      "value": "value12",
+    },
+  ],
+}
+`;
+
+exports[`collections reducer sets initial state 1`] = `
+Object {
+  "data": Array [],
+}
+`;

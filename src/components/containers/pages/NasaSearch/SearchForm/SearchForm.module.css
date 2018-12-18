@@ -1,0 +1,12 @@
+@value colors: 'styles/colors.css';
+@value white, nasa-yellow from colors;
+
+.wrapper {
+    padding: 15px;
+    background-color: nasa-yellow;
+    padding-bottom: 0;
+}
+
+.title {
+    font-size: 33px;
+}

@@ -1,0 +1,11 @@
+.base{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+
+.center{
+  justify-content: center;
+}

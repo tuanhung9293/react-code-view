@@ -1,0 +1,19 @@
+@value colors: 'styles/colors.css';
+@value separator from colors;
+
+.base {
+  text-align: center;
+  padding: 40px;
+}
+
+.withCloseButton {
+  position: relative;
+  padding: 0px 50px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

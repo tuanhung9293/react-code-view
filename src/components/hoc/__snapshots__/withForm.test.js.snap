@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should setup child context 1`] = `
+Object {
+  "_form": Object {
+    "name": "testForm",
+    "registerValidator": [Function],
+    "unregisterValidator": [Function],
+  },
+}
+`;
+
+exports[`should take some configuration and return a component enhancer 1`] = `
+<mockConstructor
+  clearForm={[Function]}
+  dirty={false}
+  form={
+    Object {
+      "touched": Object {},
+      "validationErrors": Object {},
+      "values": Object {},
+    }
+  }
+  formName=""
+  handleSubmit={[Function]}
+  setInitialValues={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  valid={true}
+  validateForm={[Function]}
+/>
+`;

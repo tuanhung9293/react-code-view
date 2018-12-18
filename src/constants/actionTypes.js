@@ -1,0 +1,30 @@
+
+export function apiActionType(type) {
+  return {
+    PENDING: `${type}_PENDING`,
+    SUCCESS: `${type}_SUCCESS`,
+    ERROR: `${type}_ERROR`
+  }
+}
+
+export const START_TRACKING_WINDOW = 'START_TRACKING_WINDOW'
+export const UPDATE_WINDOW_SIZE = 'UPDATE_WINDOW_SIZE'
+export const STOP_TRACKING_WINDOW = 'STOP_TRACKING_WINDOW'
+
+export const SET_INITIAL_FORM_VALUES = 'SET_INITIAL_FORM_VALUES'
+export const SET_FORM_VALUE = 'SET_FORM_VALUE'
+export const FORM_FIELD_BLUR = 'FORM_FIELD_BLUR'
+export const CLEAR_FORM = 'CLEAR_FORM'
+export const VALIDATE_FORM = 'VALIDATE_FORM'
+export const VALIDATE_FIELD = 'VALIDATE_FIELD'
+export const FORM_SUBMIT = apiActionType('FORM_SUBMIT')
+
+export const SEARCH_NASA_MEDIA = apiActionType('SEARCH_NASA_MEDIA')
+export const SEARCH_MORE_NASA_MEDIA = apiActionType('SEARCH_MORE_NASA_MEDIA')
+export const FETCH_MEDIA_ITEM_COLLECTION = apiActionType('FETCH_MEDIA_ITEM_COLLECTION')
+
+export const ADD_COLLECTION = 'ADD_COLLECTION'
+export const EDIT_COLLECTION = 'EDIT_COLLECTION'
+export const REMOVE_COLLECTION = 'REMOVE_COLLECTION'
+export const LIKE_COLLECTION = 'LIKE_COLLECTION'
+export const SORT_COLLECTION = 'SORT_COLLECTION'

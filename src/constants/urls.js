@@ -1,0 +1,1 @@
+export const SEARCH_API_URL = 'https://images-api.nasa.gov'

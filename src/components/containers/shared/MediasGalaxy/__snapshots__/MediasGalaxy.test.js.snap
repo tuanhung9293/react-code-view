@@ -1,0 +1,785 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders MediasGalaxy Component empty element 1`] = `
+<Connect(MediasGalaxy)
+  actionComponent={[MockFunction]}
+  galaxyData={Array []}
+  source="medias"
+  total={0}
+>
+  <MediasGalaxy
+    actionComponent={[MockFunction]}
+    fetchCollectionUrl={[Function]}
+    galaxyData={Array []}
+    searchParams={
+      Object {
+        "mediaType": "video",
+        "q": "dada",
+      }
+    }
+    source="medias"
+    total={0}
+  >
+    <div
+      className="info"
+    />
+    <Columns>
+      <div
+        className="base"
+      >
+        <div
+          className="nothing"
+        >
+          No item to show...
+        </div>
+      </div>
+    </Columns>
+  </MediasGalaxy>
+</Connect(MediasGalaxy)>
+`;
+
+exports[`renders renders MediasGalaxy Component filled elements 1`] = `
+<Connect(MediasGalaxy)
+  actionComponent={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "itemData": Object {},
+          },
+          Object {},
+        ],
+        Array [
+          Object {
+            "itemData": Object {},
+          },
+          Object {},
+        ],
+        Array [
+          Object {
+            "itemData": Object {},
+          },
+          Object {},
+        ],
+      ],
+      "results": Array [
+        Object {
+          "isThrow": false,
+          "value": null,
+        },
+        Object {
+          "isThrow": false,
+          "value": null,
+        },
+        Object {
+          "isThrow": false,
+          "value": null,
+        },
+      ],
+    }
+  }
+  galaxyData={
+    Array [
+      Object {},
+      Object {},
+      Object {},
+    ]
+  }
+  source="collection"
+  total={3}
+>
+  <MediasGalaxy
+    actionComponent={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "itemData": Object {},
+            },
+            Object {},
+          ],
+          Array [
+            Object {
+              "itemData": Object {},
+            },
+            Object {},
+          ],
+          Array [
+            Object {
+              "itemData": Object {},
+            },
+            Object {},
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": null,
+          },
+          Object {
+            "isThrow": false,
+            "value": null,
+          },
+          Object {
+            "isThrow": false,
+            "value": null,
+          },
+        ],
+      }
+    }
+    fetchCollectionUrl={[Function]}
+    galaxyData={
+      Array [
+        Object {},
+        Object {},
+        Object {},
+      ]
+    }
+    searchParams={
+      Object {
+        "mediaType": "video",
+        "q": "dada",
+      }
+    }
+    source="collection"
+    total={3}
+  >
+    <div
+      className="info"
+    >
+      <div>
+        <span>
+          <b>
+            3
+          </b>
+           loaded results of 
+          <b>
+            3
+          </b>
+        </span>
+      </div>
+    </div>
+    <Columns>
+      <div
+        className="base"
+      >
+        <Connect(Column)
+          breakPoints={
+            Array [
+              Object {
+                "maxWidth": 1200,
+                "span": 4,
+              },
+              Object {
+                "maxWidth": 768,
+                "span": 6,
+              },
+              Object {
+                "maxWidth": 576,
+                "span": 12,
+              },
+            ]
+          }
+          key="0"
+          span={3}
+        >
+          <Column
+            breakPoints={
+              Array [
+                Object {
+                  "maxWidth": 1200,
+                  "span": 4,
+                },
+                Object {
+                  "maxWidth": 768,
+                  "span": 6,
+                },
+                Object {
+                  "maxWidth": 576,
+                  "span": 12,
+                },
+              ]
+            }
+            dispatch={[Function]}
+            span={3}
+            windowWidth={615}
+          >
+            <div
+              className="base grid"
+              style={
+                Object {
+                  "WebkitBoxFlex": 0,
+                  "flexBasis": "50%",
+                  "flexGrow": 0,
+                  "maxWidth": "50%",
+                  "msFlexPositive": 0,
+                  "msFlexPreferredSize": "50%",
+                }
+              }
+            >
+              <NasaMediaItem
+                actionComponent={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                    ],
+                  }
+                }
+                itemData={Object {}}
+                onFetchCollectionUrl={[Function]}
+                source="collection"
+              >
+                <div
+                  className="wrapper"
+                >
+                  <div
+                    className="inner"
+                  >
+                    <MediaThumb
+                      itemData={Object {}}
+                      onFetchCollectionUrl={[Function]}
+                      source="collection"
+                    >
+                      <div
+                        className="wrapper"
+                      >
+                        <img
+                          className="thumb"
+                        />
+                        <div
+                          className="playButton"
+                        >
+                          <PlayButton
+                            to="/play-media/collection/undefined"
+                          >
+                            <Link
+                              replace={false}
+                              to="/play-media/collection/undefined"
+                            >
+                              <a
+                                href="/play-media/collection/undefined"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="wrapper"
+                                >
+                                  <svg
+                                    viewBox="0 0 26 26"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polygon
+                                      className="svg"
+                                      points="9.33 6.69 9.33 19.39 19.3 13.04 9.33 6.69"
+                                    />
+                                    <path
+                                      className="svg"
+                                      d="M26,13A13,13,0,1,1,13,0,13,13,0,0,1,26,13ZM13,2.18A10.89,10.89,0,1,0,23.84,13.06,10.89,10.89,0,0,0,13,2.18Z"
+                                    />
+                                  </svg>
+                                </div>
+                              </a>
+                            </Link>
+                          </PlayButton>
+                        </div>
+                      </div>
+                    </MediaThumb>
+                    <div
+                      className="mediaType"
+                    >
+                      <a />
+                    </div>
+                    <div
+                      className="info"
+                    >
+                      <h4
+                        className="title"
+                      >
+                        <a />
+                      </h4>
+                      <div
+                        className="meta"
+                      >
+                        <div
+                          className="postauthor"
+                        >
+                          By 
+                          <a>
+                            unknown
+                          </a>
+                        </div>
+                        <div>
+                            /  
+                          <img
+                            height="10px"
+                            src="test-file-stub"
+                          />
+                           
+                          Invalid date
+                        </div>
+                      </div>
+                      <div
+                        className="description"
+                      />
+                    </div>
+                    <div
+                      className="addButton"
+                    >
+                      <mockConstructor
+                        itemData={Object {}}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </NasaMediaItem>
+            </div>
+          </Column>
+        </Connect(Column)>
+        <Connect(Column)
+          breakPoints={
+            Array [
+              Object {
+                "maxWidth": 1200,
+                "span": 4,
+              },
+              Object {
+                "maxWidth": 768,
+                "span": 6,
+              },
+              Object {
+                "maxWidth": 576,
+                "span": 12,
+              },
+            ]
+          }
+          key="1"
+          span={3}
+        >
+          <Column
+            breakPoints={
+              Array [
+                Object {
+                  "maxWidth": 1200,
+                  "span": 4,
+                },
+                Object {
+                  "maxWidth": 768,
+                  "span": 6,
+                },
+                Object {
+                  "maxWidth": 576,
+                  "span": 12,
+                },
+              ]
+            }
+            dispatch={[Function]}
+            span={3}
+            windowWidth={615}
+          >
+            <div
+              className="base grid"
+              style={
+                Object {
+                  "WebkitBoxFlex": 0,
+                  "flexBasis": "50%",
+                  "flexGrow": 0,
+                  "maxWidth": "50%",
+                  "msFlexPositive": 0,
+                  "msFlexPreferredSize": "50%",
+                }
+              }
+            >
+              <NasaMediaItem
+                actionComponent={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                    ],
+                  }
+                }
+                itemData={Object {}}
+                onFetchCollectionUrl={[Function]}
+                source="collection"
+              >
+                <div
+                  className="wrapper"
+                >
+                  <div
+                    className="inner"
+                  >
+                    <MediaThumb
+                      itemData={Object {}}
+                      onFetchCollectionUrl={[Function]}
+                      source="collection"
+                    >
+                      <div
+                        className="wrapper"
+                      >
+                        <img
+                          className="thumb"
+                        />
+                        <div
+                          className="playButton"
+                        >
+                          <PlayButton
+                            to="/play-media/collection/undefined"
+                          >
+                            <Link
+                              replace={false}
+                              to="/play-media/collection/undefined"
+                            >
+                              <a
+                                href="/play-media/collection/undefined"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="wrapper"
+                                >
+                                  <svg
+                                    viewBox="0 0 26 26"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polygon
+                                      className="svg"
+                                      points="9.33 6.69 9.33 19.39 19.3 13.04 9.33 6.69"
+                                    />
+                                    <path
+                                      className="svg"
+                                      d="M26,13A13,13,0,1,1,13,0,13,13,0,0,1,26,13ZM13,2.18A10.89,10.89,0,1,0,23.84,13.06,10.89,10.89,0,0,0,13,2.18Z"
+                                    />
+                                  </svg>
+                                </div>
+                              </a>
+                            </Link>
+                          </PlayButton>
+                        </div>
+                      </div>
+                    </MediaThumb>
+                    <div
+                      className="mediaType"
+                    >
+                      <a />
+                    </div>
+                    <div
+                      className="info"
+                    >
+                      <h4
+                        className="title"
+                      >
+                        <a />
+                      </h4>
+                      <div
+                        className="meta"
+                      >
+                        <div
+                          className="postauthor"
+                        >
+                          By 
+                          <a>
+                            unknown
+                          </a>
+                        </div>
+                        <div>
+                            /  
+                          <img
+                            height="10px"
+                            src="test-file-stub"
+                          />
+                           
+                          Invalid date
+                        </div>
+                      </div>
+                      <div
+                        className="description"
+                      />
+                    </div>
+                    <div
+                      className="addButton"
+                    >
+                      <mockConstructor
+                        itemData={Object {}}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </NasaMediaItem>
+            </div>
+          </Column>
+        </Connect(Column)>
+        <Connect(Column)
+          breakPoints={
+            Array [
+              Object {
+                "maxWidth": 1200,
+                "span": 4,
+              },
+              Object {
+                "maxWidth": 768,
+                "span": 6,
+              },
+              Object {
+                "maxWidth": 576,
+                "span": 12,
+              },
+            ]
+          }
+          key="2"
+          span={3}
+        >
+          <Column
+            breakPoints={
+              Array [
+                Object {
+                  "maxWidth": 1200,
+                  "span": 4,
+                },
+                Object {
+                  "maxWidth": 768,
+                  "span": 6,
+                },
+                Object {
+                  "maxWidth": 576,
+                  "span": 12,
+                },
+              ]
+            }
+            dispatch={[Function]}
+            span={3}
+            windowWidth={615}
+          >
+            <div
+              className="base grid"
+              style={
+                Object {
+                  "WebkitBoxFlex": 0,
+                  "flexBasis": "50%",
+                  "flexGrow": 0,
+                  "maxWidth": "50%",
+                  "msFlexPositive": 0,
+                  "msFlexPreferredSize": "50%",
+                }
+              }
+            >
+              <NasaMediaItem
+                actionComponent={
+                  [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                      Array [
+                        Object {
+                          "itemData": Object {},
+                        },
+                        Object {},
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                      Object {
+                        "isThrow": false,
+                        "value": null,
+                      },
+                    ],
+                  }
+                }
+                itemData={Object {}}
+                onFetchCollectionUrl={[Function]}
+                source="collection"
+              >
+                <div
+                  className="wrapper"
+                >
+                  <div
+                    className="inner"
+                  >
+                    <MediaThumb
+                      itemData={Object {}}
+                      onFetchCollectionUrl={[Function]}
+                      source="collection"
+                    >
+                      <div
+                        className="wrapper"
+                      >
+                        <img
+                          className="thumb"
+                        />
+                        <div
+                          className="playButton"
+                        >
+                          <PlayButton
+                            to="/play-media/collection/undefined"
+                          >
+                            <Link
+                              replace={false}
+                              to="/play-media/collection/undefined"
+                            >
+                              <a
+                                href="/play-media/collection/undefined"
+                                onClick={[Function]}
+                              >
+                                <div
+                                  className="wrapper"
+                                >
+                                  <svg
+                                    viewBox="0 0 26 26"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <polygon
+                                      className="svg"
+                                      points="9.33 6.69 9.33 19.39 19.3 13.04 9.33 6.69"
+                                    />
+                                    <path
+                                      className="svg"
+                                      d="M26,13A13,13,0,1,1,13,0,13,13,0,0,1,26,13ZM13,2.18A10.89,10.89,0,1,0,23.84,13.06,10.89,10.89,0,0,0,13,2.18Z"
+                                    />
+                                  </svg>
+                                </div>
+                              </a>
+                            </Link>
+                          </PlayButton>
+                        </div>
+                      </div>
+                    </MediaThumb>
+                    <div
+                      className="mediaType"
+                    >
+                      <a />
+                    </div>
+                    <div
+                      className="info"
+                    >
+                      <h4
+                        className="title"
+                      >
+                        <a />
+                      </h4>
+                      <div
+                        className="meta"
+                      >
+                        <div
+                          className="postauthor"
+                        >
+                          By 
+                          <a>
+                            unknown
+                          </a>
+                        </div>
+                        <div>
+                            /  
+                          <img
+                            height="10px"
+                            src="test-file-stub"
+                          />
+                           
+                          Invalid date
+                        </div>
+                      </div>
+                      <div
+                        className="description"
+                      />
+                    </div>
+                    <div
+                      className="addButton"
+                    >
+                      <mockConstructor
+                        itemData={Object {}}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </NasaMediaItem>
+            </div>
+          </Column>
+        </Connect(Column)>
+      </div>
+    </Columns>
+  </MediasGalaxy>
+</Connect(MediasGalaxy)>
+`;
+
+exports[`renders renders MediasGalaxy connected 1`] = `
+<Connect(MediasGalaxy)
+  actionComponent={[MockFunction]}
+  galaxyData={Array []}
+  source="medias"
+  total={100}
+/>
+`;

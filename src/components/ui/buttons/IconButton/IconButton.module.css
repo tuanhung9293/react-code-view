@@ -1,0 +1,37 @@
+@value colors: 'styles/colors.css';
+@value white, nasa-yellow from colors;
+@value font-sizes: 'styles/font-sizes.css';
+@value largest from font-sizes;
+
+.button {
+  position: relative;
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  font-weight: bold;
+  color: white;
+  background-color: white;
+  text-decoration: none;
+  width: 40px;
+  height: 35px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  background-color: nasa-yellow;
+}
+
+.button:active {
+  outline: none;
+  background-color: #3D5FB0;
+}
+

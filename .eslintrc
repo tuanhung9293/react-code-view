@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "jsx-quotes": ["error", "prefer-double"],
+    "react/prop-types": [0],
+    "space-before-function-paren": ["error", "never"],
+    "eol-last": [0],
+    "no-console": ["warn", {"allow": ["error"]}],
+    "object-curly-spacing": [1, "never"]
+  },
+  "globals": {
+    "fetch": true
+  }
+}

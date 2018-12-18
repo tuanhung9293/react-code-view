@@ -1,0 +1,15 @@
+@value colors: 'styles/colors.css';
+@value primary, dark, background-primary from colors;
+
+::selection{
+  background: primary;
+}
+
+body{
+  background: background-primary;
+  color: dark;
+}
+
+a{
+  color: inherit;
+}

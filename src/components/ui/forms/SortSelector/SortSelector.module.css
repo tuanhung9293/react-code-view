@@ -1,0 +1,11 @@
+.wrapper{
+    margin: 5px 0;
+    overflow: auto;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}

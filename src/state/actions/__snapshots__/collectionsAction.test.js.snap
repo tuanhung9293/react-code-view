@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`collectionsAction integration test addCollection add existing collection 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "dateEdited": 1530518207007,
+      "nasaId": 12,
+      "value": "value13",
+    },
+  ],
+}
+`;
+
+exports[`collectionsAction integration test addCollection add new collection 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 12,
+      "value": "value12",
+    },
+    Object {
+      "dateEdited": 1530518207007,
+      "nasaId": 13,
+      "value": "value13",
+    },
+  ],
+}
+`;
+
+exports[`collectionsAction integration test editCollection 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "dateEdited": 1530518207007,
+      "nasaId": 12,
+      "value": "value13",
+    },
+  ],
+}
+`;
+
+exports[`collectionsAction integration test likeCollection 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "liked": true,
+      "nasaId": 12,
+      "value": "value12",
+    },
+    Object {
+      "liked": true,
+      "nasaId": 14,
+      "value": "value14",
+    },
+  ],
+}
+`;
+
+exports[`collectionsAction integration test removeCollection 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 14,
+      "value": "value14",
+    },
+  ],
+}
+`;
+
+exports[`collectionsAction integration test sortNasaCollections by dateCreated increase 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "dateCreated": "2018-10-16T00:00:00Z",
+      "nasaId": 14,
+      "value": "value14",
+    },
+    Object {
+      "dateCreated": "2018-11-16T00:00:00Z",
+      "nasaId": 12,
+      "value": "value12",
+    },
+    Object {
+      "dateCreated": "2018-12-16T00:00:00Z",
+      "nasaId": 14,
+      "value": "value14",
+    },
+  ],
+}
+`;
+
+exports[`collectionsAction integration test sortNasaCollections by title decrease 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "nasaId": 14,
+      "title": "c",
+      "value": "value14",
+    },
+    Object {
+      "nasaId": 14,
+      "title": "b",
+      "value": "value14",
+    },
+    Object {
+      "nasaId": 12,
+      "title": "a",
+      "value": "value12",
+    },
+  ],
+}
+`;

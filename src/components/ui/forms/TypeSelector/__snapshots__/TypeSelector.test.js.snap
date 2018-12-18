@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TypeSelector should pass props down 1`] = `
+<Select
+  data1="data 1"
+  data2="data 2"
+>
+  <option
+    key="image"
+    value="image"
+  >
+    Image
+  </option>
+  <option
+    key="video"
+    value="video"
+  >
+    Video
+  </option>
+  <option
+    key="audio"
+    value="audio"
+  >
+    Audio
+  </option>
+</Select>
+`;
+
+exports[`renders renders TypeSelector 1`] = `
+<Select>
+  <option
+    key="image"
+    value="image"
+  >
+    Image
+  </option>
+  <option
+    key="video"
+    value="video"
+  >
+    Video
+  </option>
+  <option
+    key="audio"
+    value="audio"
+  >
+    Audio
+  </option>
+</Select>
+`;

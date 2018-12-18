@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`window size calculates new windowSize when undefined state is provided 1`] = `
+Object {
+  "windowSize": Object {
+    "height": 10000,
+    "width": 10000,
+  },
+}
+`;
+
+exports[`window size sets initial state 1`] = `
+Object {
+  "windowSize": Object {
+    "height": 768,
+    "width": 1024,
+  },
+}
+`;
+
+exports[`window size updates window size 1`] = `
+Object {
+  "windowSize": Object {
+    "height": 666,
+    "width": 666,
+  },
+}
+`;

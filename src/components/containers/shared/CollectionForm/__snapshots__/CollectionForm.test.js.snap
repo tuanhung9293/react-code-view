@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders CollectionForm 1`] = `
+<Route>
+  <Component />
+</Route>
+`;
+
+exports[`renders renders Form 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <Columns>
+    <Connect(Column)>
+      <ConnectedFormFieldWithContext
+        component={[Function]}
+        label="Title"
+        name="title"
+      />
+      <ConnectedFormFieldWithContext
+        component={[Function]}
+        label="Description"
+        name="description"
+      />
+      <ConnectedFormFieldWithContext
+        component={[Function]}
+        label="Type"
+        name="mediaType"
+      />
+      <ConnectedFormFieldWithContext
+        label="Link thumbnail *"
+        name="thumbUrl"
+        validate={[Function]}
+      />
+      <ConnectedFormFieldWithContext
+        label="Link media source *"
+        name="mediaUrl"
+        validate={[Function]}
+      />
+    </Connect(Column)>
+  </Columns>
+  <ModalFooter>
+    <PrimaryButton
+      danger={true}
+      outlined={true}
+      to="/collection"
+    >
+      Cancel
+    </PrimaryButton>
+    <PrimaryButton
+      disabled={true}
+      outlined={true}
+      type="submit"
+    >
+      Save
+    </PrimaryButton>
+  </ModalFooter>
+</form>
+`;
+
+exports[`renders renders Form with withForm 1`] = `
+<Form
+  clearForm={[Function]}
+  dirty={true}
+  form={
+    Object {
+      "validationErrors": Object {},
+      "values": Object {
+        "description": "description",
+        "title": "title",
+      },
+    }
+  }
+  formName="addMedia"
+  handleSubmit={[Function]}
+  setInitialValues={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "get": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  valid={true}
+  validateForm={[Function]}
+/>
+`;

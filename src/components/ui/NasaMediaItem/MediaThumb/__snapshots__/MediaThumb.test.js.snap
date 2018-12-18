@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render MediaThumb 1`] = `
+<div
+  className="wrapper"
+>
+  <img
+    className="thumb"
+    src="thumbUrl"
+  />
+  <div
+    className="playButton"
+  >
+    <PlayButton
+      to="/play-media/medias/nasaId"
+    />
+  </div>
+</div>
+`;

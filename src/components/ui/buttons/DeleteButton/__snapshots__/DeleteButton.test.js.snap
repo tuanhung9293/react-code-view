@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as a DeleteButton 1`] = `
+<IconButton>
+  <img
+    alt="Add to favorite"
+    src="test-file-stub"
+  />
+</IconButton>
+`;
+
+exports[`should DeleteButton pass props 1`] = `
+<IconButton
+  dataTest="dataTest"
+>
+  <img
+    alt="Add to favorite"
+    src="test-file-stub"
+  />
+</IconButton>
+`;

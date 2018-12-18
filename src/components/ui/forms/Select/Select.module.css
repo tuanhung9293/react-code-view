@@ -1,0 +1,42 @@
+@value colors: 'styles/colors.css';
+@value secondary, separator, error, field from colors;
+
+.wrapper{
+  position: relative;
+  margin: 10px 0;
+}
+
+.select{
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 30px 10px 15px;
+  width: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0 2px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  background-color: field;
+  appearance: none;
+  background-image: url('../../../../assets/down-arrow.svg');
+  background-size: 14px 7px;
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+}
+
+.select::-ms-expand {
+    display: none;
+}
+
+.error{
+  border: 2px solid error;
+}
+
+.select:focus, .error:focus{
+  outline: none;
+  border: 2px solid secondary;
+}
+
+.slim {
+  padding: 5px 35px 5px 10px;
+  font-size: 0.875rem !important;
+  background-position: right 10px center;
+}

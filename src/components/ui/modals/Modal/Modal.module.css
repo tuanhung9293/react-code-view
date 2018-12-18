@@ -1,0 +1,54 @@
+@value colors: 'styles/colors.css';
+@value black, overlay, background-primary from colors;
+@value shadows: 'styles/shadows.css';
+@value heavy from shadows;
+
+.modal{
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 10px;
+  z-index: 10000;
+}
+
+@media (max-width: 683px) {
+  .modal{
+    padding: 10px;
+  }
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 1000;
+  background-color: overlay;
+}
+
+.notCenter{
+  align-items: flex-start;
+}
+
+.content{
+  z-index: 100000;
+  background-color: background-primary;
+  color: black;
+  border-radius: 10px;
+  box-shadow: heavy;
+  max-width: 100%;
+}
+
+.transparent .content{
+  background-color: transparent;
+  box-shadow: none;
+}

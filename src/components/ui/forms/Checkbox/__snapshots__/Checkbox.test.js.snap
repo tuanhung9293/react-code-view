@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should pass props down 1`] = `
+<span
+  className="wrapper"
+>
+  <input
+    className="input"
+    data="data1"
+    data2="data2"
+    type="checkbox"
+  />
+  <span
+    className="display"
+  />
+</span>
+`;
+
+exports[`renders Checkbox 1`] = `
+<span
+  className="wrapper"
+>
+  <input
+    className="input"
+    type="checkbox"
+  />
+  <span
+    className="display"
+  />
+</span>
+`;

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SortSelector should pass props down 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+  </div>
+  <Select
+    data1="data 1"
+    data2="data 2"
+  >
+    <option
+      key="editDec"
+      value="dateEdited,1"
+    >
+      Default
+    </option>
+    <option
+      key="titleDec"
+      value="title,1"
+    >
+      Title decrease
+    </option>
+    <option
+      key="dateDec"
+      value="dateCreated,1"
+    >
+      Date decrease
+    </option>
+    <option
+      key="titleInc"
+      value="title,-1"
+    >
+      Title increase
+    </option>
+    <option
+      key="dateInc"
+      value="dateCreated,-1"
+    >
+      Date increase
+    </option>
+  </Select>
+</div>
+`;
+
+exports[`renders renders SortSelector 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+  </div>
+  <Select>
+    <option
+      key="editDec"
+      value="dateEdited,1"
+    >
+      Default
+    </option>
+    <option
+      key="titleDec"
+      value="title,1"
+    >
+      Title decrease
+    </option>
+    <option
+      key="dateDec"
+      value="dateCreated,1"
+    >
+      Date decrease
+    </option>
+    <option
+      key="titleInc"
+      value="title,-1"
+    >
+      Title increase
+    </option>
+    <option
+      key="dateInc"
+      value="dateCreated,-1"
+    >
+      Date increase
+    </option>
+  </Select>
+</div>
+`;

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`medias reducer FETCH_MEDIA_ITEM_COLLECTION.SUCCESS 1`] = `
+Object {
+  "data": Array [
+    Object {},
+    Object {
+      "mediaUrl": "mediaUrl-ss",
+      "thumbUrl": "thumbUrl-ss",
+    },
+    Object {},
+  ],
+  "loading": true,
+  "params": Object {
+    "page": 1,
+    "q": "payload",
+  },
+  "totalHits": 1234,
+}
+`;
+
+exports[`medias reducer SEARCH_MORE_NASA_MEDIA.PENDING 1`] = `
+Object {
+  "data": Array [],
+  "loading": false,
+  "loadingMore": true,
+  "params": Object {},
+  "totalHits": 0,
+}
+`;
+
+exports[`medias reducer SEARCH_MORE_NASA_MEDIA.SUCCESS 1`] = `
+Object {
+  "data": Array [
+    66,
+    55,
+    35,
+    1,
+    2,
+    3,
+    4,
+  ],
+  "loading": true,
+  "loadingMore": false,
+  "params": Object {
+    "page": 1,
+    "q": "payload",
+  },
+  "totalHits": 1234,
+}
+`;
+
+exports[`medias reducer SEARCH_NASA_MEDIA.PENDING 1`] = `
+Object {
+  "data": Array [],
+  "loading": true,
+  "loadingMore": false,
+  "params": Object {},
+  "totalHits": 0,
+}
+`;
+
+exports[`medias reducer SEARCH_NASA_MEDIA.SUCCESS 1`] = `
+Object {
+  "data": Array [
+    1,
+    2,
+    3,
+    4,
+  ],
+  "loading": false,
+  "loadingMore": false,
+  "params": Object {
+    "page": 1,
+    "q": "payload",
+  },
+  "totalHits": 1234,
+}
+`;
+
+exports[`medias reducer sets initial state 1`] = `
+Object {
+  "data": Array [],
+  "loading": false,
+  "loadingMore": false,
+  "params": Object {},
+  "totalHits": 0,
+}
+`;

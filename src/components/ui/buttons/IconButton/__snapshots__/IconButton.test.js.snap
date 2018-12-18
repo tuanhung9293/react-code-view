@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton should pass props down 1`] = `
+<Button
+  className="button"
+  data="data1"
+  data2="data2"
+>
+  I am child
+</Button>
+`;
+
+exports[`renders as a button with children 1`] = `
+<Button
+  className="button"
+>
+  I am child
+</Button>
+`;

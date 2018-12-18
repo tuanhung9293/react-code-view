@@ -1,0 +1,4 @@
+src/__coverage__/*
+app/assets/javascripts/
+node_modules/
+*.test.js

@@ -1,0 +1,20 @@
+@value primary: #F9E034;
+@value secondary: #598AFD;
+@value complementary: #FF7C00;
+@value warning: #598AFD;
+@value error: #ED2B52;
+@value danger: #ED2B52;
+@value success: #53D596;
+@value white: #fff;
+@value black: #000;
+@value dark: #3A3B42;
+@value separator: #CFCFD3;
+@value background-primary: #f7f7f7;
+@value background-secondary: #eaeaea;
+@value field: #fcfcfc;
+@value overlay: rgba(0,0,0,0.75);
+
+@value nasa-dark: #111;
+@value nasa-light-dark: #333;
+@value nasa-yellow: rgba(226,172,54,1);
+@value nasa-gray: #888;

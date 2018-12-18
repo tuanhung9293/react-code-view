@@ -1,0 +1,29 @@
+.wrapper{
+    margin: 5px 0;
+    overflow: auto;
+}
+
+.labels{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+
+.inlineFlex {
+    display: inline-flex;
+    margin: 10px 0;
+    height: 40px;
+    margin-left: -15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+.checkbox > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}

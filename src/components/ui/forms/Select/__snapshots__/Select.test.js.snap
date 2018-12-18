@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders children 1`] = `
+<div
+  className="wrapper"
+>
+  <select
+    className="select"
+    value=""
+  >
+    <option>
+      One
+    </option>
+    <option>
+      Two
+    </option>
+  </select>
+</div>
+`;
+
+exports[`renders correctly when hasError 1`] = `
+<div
+  className="wrapper"
+>
+  <select
+    className="select error"
+    value=""
+  >
+    <option>
+      One
+    </option>
+    <option>
+      Two
+    </option>
+  </select>
+</div>
+`;

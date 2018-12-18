@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as a DismissButton 1`] = `
+<IconButton>
+  <img
+    alt="Dismiss"
+    src="test-file-stub"
+  />
+</IconButton>
+`;
+
+exports[`should DismissButton pass props 1`] = `
+<IconButton
+  dataTest="dataTest"
+>
+  <img
+    alt="Dismiss"
+    src="test-file-stub"
+  />
+</IconButton>
+`;

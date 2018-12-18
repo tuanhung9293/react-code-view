@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders AddCollectionButton 1`] = `
+<PrimaryButton
+  outlined={true}
+  to="/nasa-search/add-media/nasaId"
+  wide={true}
+>
+  Add to NASA Collection
+</PrimaryButton>
+`;

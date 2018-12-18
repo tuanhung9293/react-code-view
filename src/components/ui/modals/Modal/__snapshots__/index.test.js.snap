@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Modal renders Modal with no props 1`] = `
+<ModalPortal>
+  <div
+    className="container"
+  >
+    <div
+      className="overlay"
+    />
+    <div
+      className="modal"
+    >
+      <div
+        className="content"
+      />
+    </div>
+  </div>
+</ModalPortal>
+`;
+
+exports[`test Modal renders Modal with props notCenter 1`] = `
+<ModalPortal>
+  <div
+    className="container"
+  >
+    <div
+      className="overlay"
+    />
+    <div
+      className="modal notCenter"
+    >
+      <div
+        className="content"
+      />
+    </div>
+  </div>
+</ModalPortal>
+`;
+
+exports[`test Modal renders Modal with props transparent 1`] = `
+<ModalPortal>
+  <div
+    className="container"
+  >
+    <div
+      className="overlay"
+    />
+    <div
+      className="modal transparent"
+    >
+      <div
+        className="content"
+      />
+    </div>
+  </div>
+</ModalPortal>
+`;

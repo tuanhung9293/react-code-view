@@ -1,0 +1,26 @@
+@value colors: 'styles/colors.css';
+@value primary, black from colors;
+
+.spinner{
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-left: 3px solid primary;
+  border-top: 3px solid primary;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  animation: loading-spinner 1s linear infinite;
+}
+
+@keyframes loading-spinner{
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

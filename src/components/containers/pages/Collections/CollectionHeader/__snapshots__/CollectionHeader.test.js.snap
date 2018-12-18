@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders CollectionHeader 1`] = `<Connect(CollectionHeader) />`;
+
+exports[`renders renders CollectionHeader Component 1`] = `
+<Connect(CollectionHeader)>
+  <CollectionHeader
+    dispatch={[Function]}
+    searchParams={
+      Object {
+        "mediaType": "audio",
+        "q": "data",
+      }
+    }
+  >
+    <div
+      className="header"
+    >
+      <Columns>
+        <div
+          className="base"
+        >
+          <Connect(Column)
+            breakPoints={
+              Array [
+                Object {
+                  "maxWidth": 576,
+                  "span": 12,
+                },
+              ]
+            }
+            span={8}
+          >
+            <Column
+              breakPoints={
+                Array [
+                  Object {
+                    "maxWidth": 576,
+                    "span": 12,
+                  },
+                ]
+              }
+              dispatch={[Function]}
+              span={8}
+              windowWidth={615}
+            >
+              <div
+                className="base grid"
+                style={
+                  Object {
+                    "WebkitBoxFlex": 0,
+                    "flexBasis": "66.66666666666667%",
+                    "flexGrow": 0,
+                    "maxWidth": "66.66666666666667%",
+                    "msFlexPositive": 0,
+                    "msFlexPreferredSize": "66.66666666666667%",
+                  }
+                }
+              >
+                <div
+                  className="title"
+                >
+                  NASA COLLECTION
+                </div>
+              </div>
+            </Column>
+          </Connect(Column)>
+          <Connect(Column)
+            breakPoints={
+              Array [
+                Object {
+                  "maxWidth": 576,
+                  "span": 12,
+                },
+              ]
+            }
+            span={4}
+          >
+            <Column
+              breakPoints={
+                Array [
+                  Object {
+                    "maxWidth": 576,
+                    "span": 12,
+                  },
+                ]
+              }
+              dispatch={[Function]}
+              span={4}
+              windowWidth={615}
+            >
+              <div
+                className="base grid"
+                style={
+                  Object {
+                    "WebkitBoxFlex": 0,
+                    "flexBasis": "33.333333333333336%",
+                    "flexGrow": 0,
+                    "maxWidth": "33.333333333333336%",
+                    "msFlexPositive": 0,
+                    "msFlexPreferredSize": "33.333333333333336%",
+                  }
+                }
+              >
+                <div
+                  className="addButton"
+                >
+                  <PrimaryButton
+                    to="/nasa-search?q=data&mediaType=audio"
+                  >
+                    <Button
+                      className="base"
+                      to="/nasa-search?q=data&mediaType=audio"
+                    >
+                      <Link
+                        className="base"
+                        replace={false}
+                        to="/nasa-search?q=data&mediaType=audio"
+                      >
+                        <a
+                          className="base"
+                          href="/nasa-search?q=data&mediaType=audio"
+                          onClick={[Function]}
+                        >
+                          Add new item
+                        </a>
+                      </Link>
+                    </Button>
+                  </PrimaryButton>
+                </div>
+              </div>
+            </Column>
+          </Connect(Column)>
+        </div>
+      </Columns>
+    </div>
+  </CollectionHeader>
+</Connect(CollectionHeader)>
+`;

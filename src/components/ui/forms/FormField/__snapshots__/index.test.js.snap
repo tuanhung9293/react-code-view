@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapDispatchToProps creates dispatch actions 1`] = `
+Object {
+  "onBlur": [Function],
+  "onChange": [Function],
+  "validateField": [Function],
+}
+`;
+
+exports[`mapStateToProps creates default props if no form in state 1`] = `
+Object {
+  "hasError": false,
+  "touched": false,
+  "validationError": null,
+  "value": undefined,
+}
+`;
+
+exports[`mapStateToProps maps state to props 1`] = `
+Object {
+  "hasError": true,
+  "touched": true,
+  "validationError": "test validation error",
+  "value": "test value",
+}
+`;
+
+exports[`mapStateToProps uses initial value instead of value if no value 1`] = `
+Object {
+  "hasError": true,
+  "touched": true,
+  "validationError": "test validation error",
+  "value": "test value",
+}
+`;

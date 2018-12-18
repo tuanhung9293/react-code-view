@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates an action to startTrackingWindow 1`] = `
+Object {
+  "type": "START_TRACKING_WINDOW",
+}
+`;
+
+exports[`creates an action to stopTrackingWindow 1`] = `
+Object {
+  "type": "STOP_TRACKING_WINDOW",
+}
+`;
+
+exports[`integration updateWindowSize 1`] = `
+Object {
+  "windowSize": Object {
+    "height": 877,
+    "width": 778,
+  },
+}
+`;

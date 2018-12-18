@@ -1,0 +1,9 @@
+.base {
+  width: 42rem;
+  max-width: 100%;
+}
+
+.form {
+  position: relative;
+  padding: 20px;
+}

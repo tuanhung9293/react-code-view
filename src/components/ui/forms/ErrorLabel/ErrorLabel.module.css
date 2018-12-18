@@ -1,0 +1,9 @@
+@value colors: 'styles/colors.css';
+@value error from colors;
+@value font-sizes: 'styles/font-sizes.css';
+@value small from font-sizes;
+
+.base {
+  font-size: small;
+  color: error;
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders Textarea 1`] = `
+<textarea
+  className="textarea"
+  value=""
+/>
+`;
+
+exports[`renders renders Textarea with props hasError 1`] = `
+<textarea
+  className="textarea error"
+  value=""
+/>
+`;

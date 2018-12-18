@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders renders Root 1`] = `
+<GeneralErrorBoundary>
+  <BrowserRouter>
+    <withRouter(ScrollToTop)>
+      <ScreenContent>
+        <Switch>
+          <Route
+            exact={true}
+            path="/"
+            render={[Function]}
+          />
+          <Route
+            component={[Function]}
+            path="/collection"
+          />
+          <Route
+            component={[Function]}
+            path="/nasa-search"
+          />
+          <Route
+            component={[Function]}
+            path="/play-media/:source/:mediaId"
+          />
+          <Route
+            component={[Function]}
+          />
+        </Switch>
+        <Route
+          component={[Function]}
+          path="/collection/edit/:collectionId"
+        />
+        <Route
+          component={[Function]}
+          path="/nasa-search/add-media/:mediaId"
+        />
+      </ScreenContent>
+    </withRouter(ScrollToTop)>
+  </BrowserRouter>
+</GeneralErrorBoundary>
+`;

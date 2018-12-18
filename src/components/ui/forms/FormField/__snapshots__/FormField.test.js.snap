@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering contains a label 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label>
+      Test
+    </Label>
+    <ErrorLabel />
+  </div>
+  <Input
+    name="testField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`rendering contains an error label when there is an error 1`] = `
+<FormField
+  error="test error"
+  name="testField"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="labels"
+    >
+      <Label>
+        <label
+          className="base"
+        />
+      </Label>
+      <ErrorLabel>
+        <label
+          className="base"
+        />
+      </ErrorLabel>
+    </div>
+    <Input
+      error="test error"
+      name="testField"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    >
+      <input
+        className="input"
+        error="test error"
+        name="testField"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </Input>
+  </div>
+</FormField>
+`;
+
+exports[`rendering contains no validation error when not touched 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+    <ErrorLabel />
+  </div>
+  <Input
+    name="testField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`rendering contains validation error when touched 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+    <ErrorLabel>
+      test error
+    </ErrorLabel>
+  </div>
+  <Input
+    name="testField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`rendering handles errors that are arrays of objects 1`] = `
+<FormField
+  error={
+    Array [
+      Object {
+        "some": "error",
+      },
+      Object {
+        "some": "other error",
+      },
+    ]
+  }
+  name="testField"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="labels"
+    >
+      <Label>
+        <label
+          className="base"
+        />
+      </Label>
+      <ErrorLabel>
+        <label
+          className="base"
+        />
+      </ErrorLabel>
+    </div>
+    <Input
+      error={
+        Array [
+          Object {
+            "some": "error",
+          },
+          Object {
+            "some": "other error",
+          },
+        ]
+      }
+      name="testField"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    >
+      <input
+        className="input"
+        error={
+          Array [
+            Object {
+              "some": "error",
+            },
+            Object {
+              "some": "other error",
+            },
+          ]
+        }
+        name="testField"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </Input>
+  </div>
+</FormField>
+`;
+
+exports[`rendering handles errors that are arrays of strings 1`] = `
+<FormField
+  error={
+    Array [
+      "some error",
+      "some other error",
+    ]
+  }
+  name="testField"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="labels"
+    >
+      <Label>
+        <label
+          className="base"
+        />
+      </Label>
+      <ErrorLabel>
+        <label
+          className="base"
+        />
+      </ErrorLabel>
+    </div>
+    <Input
+      error={
+        Array [
+          "some error",
+          "some other error",
+        ]
+      }
+      name="testField"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    >
+      <input
+        className="input"
+        error={
+          Array [
+            "some error",
+            "some other error",
+          ]
+        }
+        name="testField"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </Input>
+  </div>
+</FormField>
+`;
+
+exports[`rendering handles errors that are objects 1`] = `
+<FormField
+  error={
+    Object {
+      "some": "error",
+    }
+  }
+  name="testField"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="labels"
+    >
+      <Label>
+        <label
+          className="base"
+        />
+      </Label>
+      <ErrorLabel>
+        <label
+          className="base"
+        />
+      </ErrorLabel>
+    </div>
+    <Input
+      error={
+        Object {
+          "some": "error",
+        }
+      }
+      name="testField"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    >
+      <input
+        className="input"
+        error={
+          Object {
+            "some": "error",
+          }
+        }
+        name="testField"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </Input>
+  </div>
+</FormField>
+`;
+
+exports[`rendering passes needed props to component 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+    <ErrorLabel />
+  </div>
+  <TestComponent
+    name="testField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    value="test value"
+  />
+</div>
+`;
+
+exports[`rendering renders a component if supplied 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+    <ErrorLabel />
+  </div>
+  <TestComponent
+    name="testField"
+    onBlur={[Function]}
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`rendering renders an Input element with type text as default 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="labels"
+  >
+    <Label />
+    <ErrorLabel />
+  </div>
+  <Input
+    name="testField"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;

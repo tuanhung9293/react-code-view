@@ -1,0 +1,71 @@
+@value colors: 'styles/colors.css';
+@value secondary, danger from colors;
+
+.base{
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: secondary;
+  text-decoration: none;
+  padding: 6px 22px;
+  text-transform: none;
+  border: 2px solid secondary;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.base:hover:not(.disabled), .base:focus:not(.disabled){
+  outline: none;
+  background-color: #83A8FF;
+  border-color: #83A8FF;
+}
+
+.base:active:not(.disabled){
+  background-color: #3D5FB0;
+  border-color: #3D5FB0;
+}
+
+.base.disabled{
+  opacity: 0.5;
+  background-color: primary;
+  cursor: default;
+}
+
+.outlined{
+  border-color: black;
+  color: black;
+  background-color: transparent;
+}
+
+.outlined:hover:not(.disabled), .outlined:focus:not(.disabled){
+  background-color: rgba(0,0,0,0.05);
+  border-color: black;
+}
+
+.outlined:active:not(.disabled){
+  background-color: rgba(0,0,0,0.15);
+  border-color: black;
+}
+
+.outlined.danger{
+  border-color: danger;
+  color: danger;
+}
+
+.outlined.danger:hover:not(.disabled), .outlined.danger:focus:not(.disabled){
+  background-color: #F2DADA;
+  border-color: danger;
+}
+
+.outlined.danger:active:not(.disabled) {
+  background-color: #E9C0C0;
+  border-color: danger;
+}
+
+.wide{
+  width: 100%;
+  margin: 10px 0;
+}

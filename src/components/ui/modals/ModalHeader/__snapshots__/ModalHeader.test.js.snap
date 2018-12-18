@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders heading 1`] = `
+<header
+  className="base"
+>
+  <div>
+    <h1>
+      Oh my head
+    </h1>
+  </div>
+</header>
+`;
+
+exports[`renders subheading 1`] = `
+<header
+  className="base"
+>
+  <div>
+    <p>
+      Oh my neck
+    </p>
+  </div>
+</header>
+`;
+
+exports[`renders with a close button if there is a closeTo param provided 1`] = `
+<header
+  className="base withCloseButton"
+>
+  <div>
+    <h1>
+      I close with a link
+    </h1>
+  </div>
+  <div
+    className="closeButton"
+  >
+    <ClearButton
+      to="/the/url/to/close/to"
+    >
+      <CrossIcon
+        dark={true}
+      />
+    </ClearButton>
+  </div>
+</header>
+`;
+
+exports[`renders with a close button if there is an onClose param provided 1`] = `
+<header
+  className="base withCloseButton"
+>
+  <div>
+    <h1>
+      I close with a function
+    </h1>
+  </div>
+  <div
+    className="closeButton"
+  >
+    <ClearButton
+      onClick={[Function]}
+    >
+      <CrossIcon
+        dark={true}
+      />
+    </ClearButton>
+  </div>
+</header>
+`;

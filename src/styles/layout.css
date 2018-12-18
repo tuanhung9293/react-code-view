@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+}
+
+::-moz-focus-inner {
+  border:0;
+}
+
+.no-js{
+  min-height: 100vh;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
